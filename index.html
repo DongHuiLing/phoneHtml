@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<section class="container">
+		<header>
+			<ul>
+				<li>
+					<a href="we.html"><span>华宝</span>美发</a>
+				</li>
+				<li>
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="we.html">关于我们</a></li>
+						<li><a href="product-show.html">产品展示</a></li>
+					</ul>
+					<ul>
+						<li><a href="product-know.html">产品详情</a></li>
+						<li><a href="news.html">新闻资讯</a></li>
+						<li><a href="ideas.html">意见反馈</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href=""><img src="images/nav_btn.png" alt=""></a>
+				</li>
+			</ul>
+		</header>
+		<section class="content-top">
+			<figure>
+				<canvas width="639" height="2" id="newCanvas">	</canvas>
+					<script>
+						var a=document.getElementById('newCanvas');
+						var cxt=a.getContext('2d');
+						cxt.lineWidth=2;
+						cxt.strokeStyle="#3fbc54";
+						cxt.beginPath();
+						cxt.moveTo(1,1);
+						cxt.lineTo(639,1);
+						cxt.stroke();
+					</script>
+			</figure>
+			<figure><a href="we.html"><!-- <img src="images/pic1.png" alt=""> --><span>关于我们</span></a></figure>
+		</section>
+		<section class="content-middle">
+			<ul>
+				<li>
+					<ul>
+						<li>
+							<figure><a href="product-show.html"><!-- <img src="images/pic2.png" alt=""> --><span>产品展示</span></a></figure>
+						</li>
+						<li>
+							<figure><a href="product-know.html"><!-- <img src="images/pic3.png" alt=""> --><span>产品详情</span></a></figure>
+						</li>
+					</ul>
+				</li>     
+				<li>
+					<figure><a href="news.html"><!-- <img src="images/pic4.png" alt=""> --><span>新闻资讯</span></a></figure>
+				</li>
+			</ul>
+		</section>
+		<section class="content-bottom">
+			<figure><a href="ideas.html"><!-- <img src="images/pic5.png" alt=""> --><span>意见反馈</span></a></figure>
+		</section>
+		<footer>
+			<article>
+					<p><small>联系电话：1234567890</small></p>
+					<p><small>Copyright 2016-深圳龙岗华宝美发有限公司</small></p>
+			</article>
+		</footer>
+	</section>
+	
+</body>
+</html>

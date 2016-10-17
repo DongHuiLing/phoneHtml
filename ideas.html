@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>意见反馈</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<section class="we-box ideas-box">
+		<header>
+			<ul>
+				<li>
+					<a href="index.html"><img src="images/back.png" alt=""></a>
+				</li>
+				<li>
+					<h1>意见反馈</h1>
+				</li>
+				<li>
+					<a href=""><img src="images/nav_btn.png" alt=""></a>
+				</li>
+			</ul>
+		</header>
+		<section class="ideas-section">
+			<ul>
+				<li>Welcome to the login page</li>
+				<li></li>
+				<li>
+					<canvas width="300" height="300" id="canvas" >
+						<script>
+							var a=document.getElementById('canvas');
+							var cxt=a.getContext('2d');
+							cxt.fillStyle="#cfeff8";
+							cxt.beginPath();
+							cxt.arc(50,150,50,0,Math.PI*2,false); 
+							cxt.fill();
+							cxt.lineWidth=5;
+							cxt.fillStyle="#fff";
+							cxt.beginPath();
+							cxt.arc(60,139,35,0,Math.PI*2,false);     
+							cxt.fill();
+							cxt.closePath();
+						</script>
+				</li>
+				<li>
+					<input type="text" name="username"id="name" placeholder="用户名：">
+				</li>
+				<li>
+					<input type="password" name="pasw" id="passwr" placeholder="密码：">
+				</li>
+				<li>
+					<ul>
+						<li>
+							<input type="checkbox" id="yes"><label for="yes"><a href="">记住密码</a></label>
+						</li>
+						<li>
+							<a href=""><u>忘记密码？</u></a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li><input type="button" value="登录"></li>
+						<li><input type="button" value="注册"></li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+		<footer>
+			<article>
+					<p><small>联系电话：1234567890</small></p>
+					<p><small>Copyright 2016-深圳龙岗华宝美发有限公司</small></p>
+			</article>
+		</footer>
+	</section>
+</body>
+</html>
